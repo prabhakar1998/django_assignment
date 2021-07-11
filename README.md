@@ -51,7 +51,6 @@ Response code: 201
 Example Post data
 ```json
 {
-"id": 2,
 "name": "Provider 2",
 "email": "user2@gmail.com",
 "phone_number": "+917611182253",
