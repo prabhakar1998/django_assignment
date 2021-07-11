@@ -1,0 +1,27 @@
+version: '3'
+ 
+services:
+  db:
+    image: postgis/postgis
+    environment:
+      - DB_HOST=db
+      - POSTGRES_DB=app, testdb
+      - POSTGRES_USER=postgres_user
+      - POSTGRES_PASSWORD=supersecretpassword
+
+  app:
+    container_name: servicearea
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - DB_HOST=db
+      - POSTGRES_DB=app
+      - TEST_DB=testdb
+      - POSTGRES_USER=postgres_user
+      - POSTGRES_PASSWORD=supersecretpassword
+    depends_on:
+      - db
