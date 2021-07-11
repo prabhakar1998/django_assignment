@@ -120,7 +120,7 @@ Example response body
 1. api/service-areas/?latitude=<float>&longitude=<float>
 
 Method: GET
-Link: http://ec2-18-118-13-226.us-east-2.compute.amazonaws.com/api/service-areas/
+Link: http://ec2-18-118-13-226.us-east-2.compute.amazonaws.com/api/service-areas/?latitude=9.00&longitude=28.00
 Response code: 200
 Example response body
 ```json
