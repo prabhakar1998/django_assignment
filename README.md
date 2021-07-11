@@ -8,9 +8,9 @@ API documentation:
      The api documentation can be checked using  http://ec2-18-118-13-226.us-east-2.compute.amazonaws.com/
 
 
-###Endpoints
+### Endpoints
 
-####Service Provider API's
+#### Service Provider API's
 
 1. api/providers/
 
@@ -115,7 +115,7 @@ Link: http://ec2-18-118-13-226.us-east-2.compute.amazonaws.com/api/providers/3/
 Response code: 204
 Example response body
 
-####Service Area API's
+#### Service Area API's
 
 1. api/service-areas/?latitude=<float>&longitude=<float>
 
