@@ -117,7 +117,7 @@ Example response body
 
 ####Service Area API's
 
-1. api/service-areas/
+1. api/service-areas/?latitude=<float>&longitude=<float>
 
 Method: GET
 Link: http://ec2-18-118-13-226.us-east-2.compute.amazonaws.com/api/service-areas/
